@@ -58,4 +58,9 @@ public class UserController {
         model.addAttribute("list",list);
         return "list";
     }
+
+    //测试分支合并
+    public void test(){
+        System.out.println("啦啦啦啦啦");
+    }
 }
